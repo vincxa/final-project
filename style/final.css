@@ -55,22 +55,9 @@ header{
     margin: 20px auto;
     font-size: 22px;
 }
-.img{
-    width: 400px;
-    margin: 0 auto;
-}
 
-.img img{
-    width: 100%;
-}
-main{
-    width: 1024px;
-    margin: 0 auto;
-}
 .aboutus{
     display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
 }
 .aboutus h2{
     font-size: 22px;
@@ -81,6 +68,70 @@ main{
 .fotou{
     width: 250px;
     border-radius: 35px;
+}
+.contact{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+form.contacti{
+    width: 100%;
+    margin: 25px;
+}
+form.contacti input{
+    width: 45%;
+    height: 50px;
+    margin: 3px 3px;
+    border: 1px solid grey;
+}
+form.contacti textarea{
+    margin: 3px;
+}
+form.contacti .submit{
+    background-color: rgb(54, 54, 255);
+    color: white;
+    width: 150px;
+}
+form.example{
+    width: 400px;
+    margin: 15px auto;
+    
+}
+form.example input[type=text] {
+    height: 50px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 300px;
+    background: #f1f1f1;
+    margin: 0 auto;
+    transition: width 0.15s ease-in-out;
+}
+  
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 14px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form.example input[type=text]:focus {
+    width: 70%;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 footer{
     background-color: #a6b98b;
